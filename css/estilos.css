@@ -1,19 +1,25 @@
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
-
-header h1{
-    background-color: black;
-    justify-content: center;
+ h1{
+    background-color: rgb(0, 0, 0);
     color: white;
+    margin: 0%;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    display: grid;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-body  main{
+
+body  main div {
     background-color: rgb(80, 27, 130);
     color: white;
     height: 150%;
+    display: flex;
 }
 
 
