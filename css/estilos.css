@@ -4,11 +4,27 @@
     box-sizing: border-box;
 }
 
-
-body main {
-    background-color: rgb(80, 27, 130);
+header h1{
+    background-color: black;
+    justify-content: center;
     color: white;
 }
+
+body  main{
+    background-color: rgb(80, 27, 130);
+    color: white;
+    height: 150%;
+}
+
+
+
+
+
+
+
+
+
+
 body footer {
     height: 10vh;
     background-color: black;
@@ -17,8 +33,16 @@ body {
     height: 100vh;
 }
 footer div a {
-    color: white; text-decoration: none; list-style: none;
+    color: white;
+     text-decoration: none;
+      list-style: none;
+
 }
-footer {
-    text-align: center;
+footer div {
+    display: flex; 
+    justify-content: space-around;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+
 }
