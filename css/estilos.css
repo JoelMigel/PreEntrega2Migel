@@ -47,6 +47,10 @@
     text-align: center;
 
 }
+#galeria_main{
+    background-color: rgb(112, 8, 138);
+    color: white;
+}
 main div aside{
     background-color: rgb(30, 126, 215);
     text-align: center;
