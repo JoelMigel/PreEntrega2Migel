@@ -42,7 +42,11 @@
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+#historia_main{
+    background-color: rgb(112, 8, 138);
+    text-align: center;
 
+}
 main div aside{
     background-color: rgb(30, 126, 215);
     text-align: center;
@@ -58,6 +62,16 @@ main div section {
     padding: 20px;
 }
 
+main p {
+    text-align: center;
+    font-family: italic;
+    color: white;
+    margin: 0%;
+    height: 500px;
+}
+main img {
+    padding: 1%;
+}
 
 
 body footer {
