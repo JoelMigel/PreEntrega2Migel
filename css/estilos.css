@@ -50,6 +50,9 @@
 #galeria_main{
     background-color: rgb(112, 8, 138);
     color: white;
+    width: 100;
+    margin: 0%;
+    padding: 0%;
 }
 #texto_historia {
     text-align: center;
@@ -85,6 +88,9 @@ body footer {
 body {
     height: 100vh;
 }
+#fondo{
+    width: 100%;
+}
 footer div a {
     color: white;
      text-decoration: none;
@@ -99,6 +105,30 @@ footer div {
     align-items: center;
 
 }
+.texto_galeria {
+    font-size: large;
+    text-align: center;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    grid-gap: 10px;
+}
+
+.imagen {
+    border: 4px solid #b8b3b3;
+    padding: 10px;
+}
+.imagen img {
+    width: 30%;
+    height: auto;
+}
+
+figure{
+ text-align: center;
+}
+
 
 @media screen and (max-width: 800px){
 
