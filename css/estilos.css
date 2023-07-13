@@ -18,15 +18,25 @@
 body  main div {
     background-color: rgb(80, 27, 130);
     color: white;
-    height: 150%;
+    height: 125%;
     display: flex;
 }
 
 
+main div aside{
+    background-color: rgb(72, 155, 209);
+    text-align: center;
+    font-size: 125%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    border-radius: 10px;
+}
 
-
-
-
+main div section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
 
 
 
@@ -51,4 +61,28 @@ footer div {
     height: 100%;
     align-items: center;
 
+}
+@media screen and (max-width: 800px){
+
+    main div {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    main div section {
+        align-items: center;
+    }
+    footer {
+        display: block;
+        width: 100%;
+    }
+
+}
+@media  screen and (max-width:480px) {
+    main h1{
+        font-size: 5vh;
+    }
+    main div section iframe {
+        width: 75%
+    }
 }
