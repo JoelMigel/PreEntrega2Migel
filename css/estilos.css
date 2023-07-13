@@ -29,7 +29,7 @@
 #main_principal {
     background-color: rgb(112, 8, 138);
     color: white;
-    height: 125%;
+    height: 100%;
     display: flex;
 }
 #main_contacto{
@@ -51,6 +51,13 @@
     background-color: rgb(112, 8, 138);
     color: white;
 }
+#texto_historia {
+    text-align: center;
+    font-family: italic;
+    color: white;
+    margin: 0%;
+    height: 500px;
+}
 main div aside{
     background-color: rgb(30, 126, 215);
     text-align: center;
@@ -66,13 +73,6 @@ main div section {
     padding: 20px;
 }
 
-main p {
-    text-align: center;
-    font-family: italic;
-    color: white;
-    margin: 0%;
-    height: 500px;
-}
 main img {
     padding: 1%;
 }
