@@ -194,10 +194,24 @@ figure{
 
 }
 @media  screen and (max-width:480px) {
-    main h1{
-        font-size: 5vh;
+    .banner{
+        font-size: 3vh;
     }
     main div section iframe {
-        width: 75%
+        width: 70%
     }
 }
+
+@media screen and (max-width: 400px) {
+    .banner{
+        font-size: 2vh;
+    }
+    main{
+        width: 100%;
+    }
+    footer{
+        display: block;
+        width: 100%;
+    }
+}
+    
